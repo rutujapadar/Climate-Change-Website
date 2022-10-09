@@ -1,0 +1,234 @@
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+       * {
+           margin: 0px;
+           padding: 0px;
+
+       }
+
+       body {
+           font-family: 'Poppins', sans-serif;
+
+       }
+
+       a:link {
+           color: black;
+       }
+
+       a:visited {
+           color: rgb(93, 39, 143);
+       }
+
+       a:active {
+           color: rgb(29, 29, 131);
+       }
+
+       .article a:hover {
+           text-decoration: 2px solid black underline;
+       }
+
+       .navbar {
+           width: 100%;
+           height: 100px;
+           color: rgb(253, 250, 250);
+           background-color: #004c59;
+           padding: 10px;
+
+
+       }
+
+
+       #social:hover {
+           color: red;
+       }
+
+       #logo img {
+           width: 80px;
+           height: 80px;
+           border-radius: 100%;
+       }
+
+       .mainmenu .logotitle {
+           text-transform: uppercase;
+           text-decoration: none;
+           color: white;
+           font-size: 1.5rem;
+
+       }
+
+       .mainmenu .nav {
+
+           width: 100px;
+
+       }
+
+       .nav li a {
+           text-decoration: none;
+           color: white;
+           font-size: 1.2rem;
+           padding: 4px;
+           text-align: right;
+           margin: 19px;
+       }
+
+       .nav li {
+           list-style-type: none;
+       }
+
+       .nav li a:hover {
+           border-bottom: 2px solid white;
+       }
+
+       .footer {
+           width: 100%;
+           text-align: left;
+           bottom: 0px;
+           background-color: slategrey;
+           color: white;
+           padding: 10px;
+       }
+
+       .footer td,
+       th {
+           padding: 10px;
+       }
+
+       .footer th {
+           font-size: 1.4rem;
+           text-transform: capitalize;
+           padding: 10px;
+       }
+
+       #aboutus {
+           width: 210px;
+           text-align: left;
+           padding: 4px;
+
+       }
+
+       #aboutus .about {
+           margin-top: -30px;
+       }
+
+       #policies {
+           list-style: none;
+           width: 200px;
+           padding: 20px;
+       }
+
+       #policies li a {
+           text-decoration: none;
+           color: white;
+           margin-bottom: 10px;
+
+       }
+
+       #policies li {
+           padding: 5px;
+       }
+
+       #policies ol {
+           margin-top: -20px;
+           margin-left: 20px;
+       }
+
+       #contactus {
+           width: 140px;
+           padding: 20px;
+       }
+
+       #contactus ol,
+       #contactus a {
+           margin-top: -70px;
+           color: white;
+           text-decoration: none;
+           margin-left: -10px;
+       }
+
+       #contactus li {
+           padding: 5px;
+       }
+
+       .feedback {
+           margin-top: -55px;
+       }
+
+       .feedback a {
+           text-decoration: none;
+           color: black;
+       }
+
+       #feed button:hover {
+           background-color: lightseagreen;
+           color: white;
+       }
+
+       #feed button {
+           width: 200px;
+           height: 40px;
+           font-size: 1rem;
+           background-color: white;
+           border: none;
+           border-radius: 5px;
+           font-weight: bolder;
+           margin: 20px;
+           margin-left: 0;
+       }
+
+       .feedbackdiv {
+           width: 340px;
+           height: 390px;
+           background: rgba(230, 230, 230, 0.151);
+           margin-top: 10px;
+           margin-bottom: 50px;
+           margin-left: auto;
+           margin-right: auto;
+           padding: 20px;
+           border-radius: 10px;
+           border: 1.3px solid lightgrey;
+       }
+
+       form {
+           margin-left: 10px;
+       }
+
+       input {
+           border-radius: 4px;
+           border: none;
+           padding: 2px;
+       }
+
+
+       .submitbutton {
+           width: 100px;
+           height: 30px;
+           border: none;
+           border-radius: 3px;
+           font-family: 'poppins';
+           color: white;
+           font-size: 1rem;
+           margin: 5px;
+           background-color: #065c69da;
+
+       }
+
+       .submitbutton:hover {
+           border: 1px solid black;
+           background-color: #066f81c4;
+       }
+
+       .resetbutton:hover {
+           border: 1px solid black;
+           background-color: rgba(228, 227, 227, 0.719);
+       }
+
+       .resetbutton {
+           width: 100px;
+           height: 30px;
+           background-color: white;
+           border: none;
+           border-radius: 3px;
+           font-family: 'poppins';
+           font-size: 1rem;
+           margin: 5px;
+       }
